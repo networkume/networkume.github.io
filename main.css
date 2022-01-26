@@ -1,0 +1,32 @@
+body {
+    background-color: #94a8e7;
+    text-align:  left;
+    height: 750px;
+    margin-right: auto;
+    margin-left : auto;
+    position: relative;
+  }
+  canvas { 
+    border: 2px solid #000;
+    position:absolute;
+    top:20;
+    left:20;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    visibility: hidden;
+    }
+  
+    .image{
+      position: absolute;
+      bottom: 0;
+    }
+    #tweet-area {
+      position: absolute;
+      margin-left: 155px;
+      margin-top: 220px;
+    }
+    #canvas_wrapper{
+      width:600px;
+      height:700px;
+      margin:0 auto;
+    }
